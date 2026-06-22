@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heng Yang</title>
+  <meta name="description" content="Heng Yang — M.S. student at the University of Pennsylvania interested in robot dynamics, feedback control, motion planning, and robotic systems." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">Heng Yang</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#cv">CV</a>
+        <a href="mailto:yangh94@seas.upenn.edu">Email</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">Robotics · Control · Dynamics</div>
+        <h1>Heng Yang</h1>
+        <p>
+          I am an M.S. student in Mechanical Engineering and Applied Mechanics at the University of Pennsylvania.
+          My interests lie in robot dynamics, feedback control, motion planning, and mechatronic systems.
+        </p>
+        <p>
+          I build and analyze robotic systems that connect mechanical design, embedded sensing, control algorithms,
+          and experimental validation.
+        </p>
+        <div class="button-row">
+          <a class="button primary" href="assets/CV_HY.pdf">Download CV</a>
+          <a class="button" href="#research">Research</a>
+          <a class="button" href="https://www.linkedin.com/in/heng-yang0014">LinkedIn</a>
+          <a class="button" href="mailto:yangh94@seas.upenn.edu">Email</a>
+        </div>
+      </div>
+
+      <aside class="profile-card">
+        <div class="profile-photo">
+          Replace this block with your photo:<br>
+          <code>assets/profile.jpg</code>
+        </div>
+        <div class="info-list">
+          <div><strong>Current:</strong> M.S. MEAM, University of Pennsylvania</div>
+          <div><strong>Previous:</strong> B.S. Mechanical Engineering, University of Arizona</div>
+          <div><strong>Interests:</strong> Robot Dynamics, Control, Motion Planning</div>
+          <div><strong>Location:</strong> Philadelphia, PA</div>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Research</h2>
+            <p class="section-kicker">Current and recent research projects in experimental robotics, dynamic modeling, and simulation.</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <img src="assets/tsa.svg" alt="Twisted-string actuator project placeholder" />
+            <div class="card-body">
+              <h3>Twisted-String Actuator Characterization</h3>
+              <p class="meta">ModLab, University of Pennsylvania · May 2026 – Present</p>
+              <p>Experimental platform for actuator lifetime and performance characterization with magnetic encoders, current sensing, and embedded data acquisition.</p>
+              <div class="tags">
+                <span class="tag">Experimental Robotics</span><span class="tag">ESP32</span><span class="tag">Sensors</span>
+              </div>
+              <p><a href="projects/twisted-string-actuator.html">Read more →</a></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/helicopter.svg" alt="Helicopter trim solver placeholder" />
+            <div class="card-body">
+              <h3>Helicopter Trim Solver</h3>
+              <p class="meta">University of Pennsylvania · 2026</p>
+              <p>Nonlinear rotorcraft trim solver using inflow iteration, flapping dynamics, aerodynamic coefficients, and six-equation equilibrium.</p>
+              <div class="tags">
+                <span class="tag">Dynamics</span><span class="tag">MATLAB</span><span class="tag">Control</span>
+              </div>
+              <p><a href="projects/helicopter-trim.html">Read more →</a></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/rocket.svg" alt="Rocket CFD placeholder" />
+            <div class="card-body">
+              <h3>Rocket Engine CFD</h3>
+              <p class="meta">University of Pennsylvania · 2026</p>
+              <p>Methane–oxygen rocket engine CFD simulation in ANSYS Fluent analyzing chamber flow, nozzle acceleration, and thermal gradients.</p>
+              <div class="tags">
+                <span class="tag">CFD</span><span class="tag">ANSYS Fluent</span><span class="tag">Thermo-Fluids</span>
+              </div>
+              <p><a href="projects/rocket-cfd.html">Read more →</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Selected Robotics Projects</h2>
+            <p class="section-kicker">Projects connecting robot modeling, motion planning, embedded control, and physical experimentation.</p>
+          </div>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <img src="assets/panda.svg" alt="Franka Panda placeholder" />
+            <div class="card-body">
+              <h3>Franka Panda Manipulation</h3>
+              <p class="meta">University of Pennsylvania · 2025</p>
+              <p>7-DOF manipulation pipeline including FK, IK, null-space optimization, trajectory generation, RRT, APF, and ROS/RViz integration.</p>
+              <div class="tags">
+                <span class="tag">Manipulation</span><span class="tag">Motion Planning</span><span class="tag">IK</span>
+              </div>
+              <p><a href="projects/franka-panda.html">Read more →</a></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/mobile_robot.svg" alt="Mobile robot placeholder" />
+            <div class="card-body">
+              <h3>Autonomous Mobile Robot</h3>
+              <p class="meta">University of Pennsylvania · 2025</p>
+              <p>Differential-drive robot with encoder-based PID control, ToF/ultrasonic sensing, Vive localization, Wi-Fi control, and telemetry.</p>
+              <div class="tags">
+                <span class="tag">Mobile Robotics</span><span class="tag">PID</span><span class="tag">Localization</span>
+              </div>
+              <p><a href="projects/mobile-robot.html">Read more →</a></p>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="assets/agv.svg" alt="AGV project placeholder" />
+            <div class="card-body">
+              <h3>AGV with Manipulator</h3>
+              <p class="meta">Bachelor Thesis · 2025</p>
+              <p>AGV system integrated with an RPRR manipulator, including torque analysis, FEA, workspace evaluation, and A*-based planning.</p>
+              <div class="tags">
+                <span class="tag">AGV</span><span class="tag">Manipulator</span><span class="tag">A*</span>
+              </div>
+              <p><a href="projects/agv-manipulator.html">Read more →</a></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="news">
+      <div class="container">
+        <h2>News</h2>
+        <div class="timeline">
+          <div class="news-item">
+            <div class="news-date">2026</div>
+            <div>Started research at ModLab, University of Pennsylvania.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">2025</div>
+            <div>Began M.S. study in Mechanical Engineering and Applied Mechanics at the University of Pennsylvania.</div>
+          </div>
+          <div class="news-item">
+            <div class="news-date">2025</div>
+            <div>Received B.S. in Mechanical Engineering from the University of Arizona with Summa Cum Laude honors.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cv">
+      <div class="container two-col">
+        <div class="panel">
+          <h3>Education</h3>
+          <ul class="clean">
+            <li>University of Pennsylvania, M.S. Mechanical Engineering and Applied Mechanics</li>
+            <li>University of Arizona, B.S. Mechanical Engineering, Summa Cum Laude</li>
+            <li>Hebei University of Technology, B.Eng. Mechanical Engineering</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Technical Skills</h3>
+          <ul class="clean">
+            <li>Programming: Python, MATLAB, C, Arduino, C#, LaTeX</li>
+            <li>Robotics: PID, motion planning, FK/IK, trajectory generation, ESP32, RViz</li>
+            <li>Simulation/CAD: ANSYS Fluent, Simulink, SolidWorks, Onshape, Creo, AutoCAD</li>
+          </ul>
+          <p style="margin-top:14px;"><a class="button primary" href="assets/CV_HY.pdf">Download full CV</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2026 Heng Yang · Built for academic portfolio and PhD applications.</div>
+  </footer>
+</body>
+</html>

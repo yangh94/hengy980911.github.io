@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Franka Panda Manipulation | Heng Yang</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="../index.html">Heng Yang</a>
+      <div class="nav-links">
+        <a href="../index.html#research">Research</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../assets/CV_HY.pdf">CV</a>
+        <a href="mailto:yangh94@seas.upenn.edu">Email</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <div class="eyebrow">University of Pennsylvania · Sep. 2025 – Dec. 2025</div>
+      <h1 class="project-title">Franka Panda Manipulation</h1>
+      <div class="tags"><span class="tag">Robot Manipulation</span><span class="tag">Motion Planning</span><span class="tag">IK</span><span class="tag">ROS/RViz</span></div>
+      <img class="project-img" src="../assets/panda.svg" alt="Franka Panda Manipulation image placeholder" />
+    </div>
+  </header>
+
+  <main class="container project-layout">
+    <aside class="sidebar">
+      <strong>On this page</strong>
+      <a href="#overview">Overview</a>
+      <a href="#contributions">Contributions</a>
+      <a href="#methods">Methods / System</a>
+      <a href="#results">Results</a>
+      <a href="../index.html">← Back home</a>
+    </aside>
+
+    <div>
+      <section class="content-section" id="overview">
+        <h2>Overview</h2>
+        <p>This project implemented a manipulation pipeline for a redundant 7-DOF Franka Emika Panda robot arm, connecting robot kinematics, motion planning, trajectory generation, and perception-based manipulation.</p>
+      </section>
+
+      <section class="content-section" id="contributions">
+        <h2>Key Contributions</h2>
+        <ul><li>Implemented forward kinematics, inverse kinematics, differential kinematics, and trajectory generation in Python.</li>
+<li>Developed Jacobian pseudoinverse and Jacobian transpose inverse kinematics with null-space optimization.</li>
+<li>Implemented RRT and Artificial Potential Field planners with collision checking.</li>
+<li>Integrated vision-based localization with ROS/RViz for autonomous pick-and-place tasks.</li></ul>
+      </section>
+
+      <section class="content-section" id="methods">
+        <h2>Methods / System</h2>
+        <ul><li>Algorithms: FK/IK, Jacobian-based control, null-space optimization, RRT, APF, Cartesian trajectory generation.</li>
+<li>Tasks: grasping, transporting, and stacking square blocks.</li>
+<li>Tools: Python, ROS/RViz, simulation and physical robot evaluation.</li></ul>
+      </section>
+
+      <section class="content-section" id="results">
+        <h2>Results and Next Steps</h2>
+        <ul><li>Completed autonomous manipulation experiments with block picking and stacking.</li>
+<li>Generated a 45-page IEEE-style technical report documenting implementation and evaluation.</li></ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 2026 Heng Yang</div>
+  </footer>
+</body>
+</html>

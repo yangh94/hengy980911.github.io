@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f3f4f6"/>
+  <rect x="70" y="70" width="1060" height="620" rx="28" fill="#ffffff" stroke="#d1d5db" stroke-width="3"/>
+  <text x="600" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#111827" font-weight="700">Autonomous Mobile Robot</text>
+  <text x="600" y="420" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#6b7280">Replace with robot photo / control UI</text>
+</svg>
